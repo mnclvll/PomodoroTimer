@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import java.util.Locale;
 
-public class MainActivity extends AppCompatActivity {
+public class PomodoroTimer extends AppCompatActivity {
     //sets time for work, break and long break
     private static final long START_WORK_TIME_MILLIS = 1500000;
     private static final long START_BREAK_TIME_MILLIS = 300000;
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.PomodoroTimer);
 
         //work timer objects
         txtWorkTimer = findViewById(R.id.txtWorkTimer);
